@@ -2,7 +2,6 @@ defmodule Ueberauth.Strategy.Shopify do
   use Ueberauth.Strategy,
     default_scope: "read_products"
 
-  alias Ueberauth.Auth.Info
   alias Ueberauth.Auth.Credentials
   alias Ueberauth.Auth.Extra
   alias Ueberauth.Strategy.Helpers
